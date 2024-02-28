@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+ul li{
+    margin: 0 2em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.fr{
+    background-image: url(./book.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+}
+main{
+    position: relative;
+}
+.articles{
+    width: 98%;
+    height: 50vh;
+    background-color: rgb(235, 247, 79);
+    margin: 2% auto;
+}
+.h{
+    font-size: large;
+    margin-left: 3%;
+}
+.articles2{
+    margin: 8% auto;
+    display: flex;
+    width: 80%;
+}
+.left{
+    width: 50%;
+    align-self: center;
+}
+.sandy{
+    height: 80vh;
+    width: auto;
+    align-items: flex-end;
+}
+.head{
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: xx-large;
+}
+.t{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.con{
+    height: 250px;
+    width: 100%;
+}
+.con2{
+    background-image: url(./fru.jpg);
+    width: 100%;
+    height: 800px;
+    background-size:cover;
+    margin: 8% 4%;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+.con21{
+    background-color: white;
+    border-radius: 20px;
+    width: 60%;
+    height: 75%;
+    padding: 30px;
+    align-self: flex-end;
+    position: absolute;
+    right: -20em;
+}
+.small{
+    background-color: black;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    align-items: end;
+    width: 20%;
+    height: 5%;
+    margin-top: 5%;
+}
+.bn{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bnn{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.val{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card{
+    width: 21%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 40vh;
+}
+.card img{
+    width: 90%;
+    margin: auto;
+}
+.text{
+    text-align: center;
+}
+.arti{
+    display: flex;
+    justify-content: space-between;
+}
+.cv{
+    text-align: center;
+    color: white;
+   justify-self: center;
+}
+.cv1{
+    background-color: black;
+    height: 10vh;
+    width: 20%;
+    justify-content: center;
+}

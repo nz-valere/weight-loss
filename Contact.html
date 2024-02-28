@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./logo.png">
+    <link rel="stylesheet" href="Contact.css">
+
+    <title>W-fitness</title>
+</head>
+<body>
+    <div class="Header">
+        <img src="./logo.png" alt="">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Our-product.html">Our program</a></li>
+            <li><a href="About-us.html">About us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img class="man" src="./man.jpg" alt="">
+        <div class="right">
+            <h1>Contact</h1>
+            <p>Do you have a convern? An idea for improvement?</p>
+            <p>You are in the the right place. we will be happy to read you and learn a lot with you. </p> 
+            <div class="ins"><input class="ebox" type="text" id="Name" name ="Name" placeholder="Name" required>
+                <input class="ebox1" type="number" id="Number" name ="Number" placeholder="Phone Number"required>
+            </div>
+            <form method = "post" action="" enctype="multipart/form-data">
+                <input class="ebox2" type="email" id="email" name ="email" placeholder="e-mail" required><br>
+                <input class="ebox2" type="email" id="email" name ="email" placeholder="Region of Origin/Date of birth" required><br>
+                <!-- <input class="ebox3" type="" id="Comments" name ="Comments" placeholder="Comments" required><br> -->
+                <textarea class="ebox3" name="Comments" id="Comments" cols="30" rows="10" placeholder="comments..."></textarea><br>
+                <input class="ebox4" type="submit" value="submit"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
