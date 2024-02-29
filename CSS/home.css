@@ -24,7 +24,7 @@ a{
     font-size: larger;
 }
 .fr{
-    background-image: url(./book.jpg);
+    background-image: url(../imgs/book.jpg);
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -72,7 +72,7 @@ main{
     width: 100%;
 }
 .con2{
-    background-image: url(./fru.jpg);
+    background-image: url(../imgs/fru.jpg);
     width: 100%;
     height: 800px;
     background-size:cover;
